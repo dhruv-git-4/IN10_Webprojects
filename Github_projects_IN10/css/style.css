@@ -1,0 +1,177 @@
+body{
+    background-image: url(black\ wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+text-align: left;
+
+
+
+}
+
+.navbar li{
+float: right;
+list-style: none;
+margin-right: 6px;
+}
+/* .navbar ul{
+overflow:hidden; */
+}
+.navbar li a{
+    text-decoration: none;
+    text-align: right;
+    color: white;
+    padding: 13px 13px;
+}
+
+.content{
+    color: aliceblue;
+    align-items: center;
+    
+}
+.image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+
+}
+.content{
+    align-items: center;
+}
+.btn{
+    align-items:start;
+    border-radius: 28px;
+}
+
+.btn-outline-grey{
+    background-color: lightgray;
+    outline: 1px solid rgb(80, 65, 65);
+    color: rgb(10, 10, 10);
+    margin-left: -18px;
+    position: relative;
+    z-index: 3;
+    padding-right: 3px;
+
+
+}
+
+.navbar ul li{
+    padding-inline: 8px;
+    border-radius: 50%;
+    font-weight: 700;
+    margin-block: 5px;
+}
+.time{
+    background-color: darkslategrey;
+    text-align: right;
+    color: aliceblue;
+    float: right;
+    margin-block: 0%;
+}
+
+.main-item{
+    z-index: 1;    
+}
+
+
+
+
+
+
+.watch-msg{
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.distro-main-back{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/test_pic1688122055845\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: 1;
+}
+.head{
+    color: white;
+    font-weight: bold;
+}
+.watch-btn button{
+    background-color: #fff;
+    padding: 10px 50px;
+    border-radius: 50px;
+
+    
+}
+.live-time{
+    background-color: rgb(37, 21, 21);
+    color: white;
+    font-weight: bolder;
+    padding-left: 28px;
+    margin-top: 30px;
+}
+.distro-logo{
+text-align: center;
+}
+.arrw-btn{
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    border-color: #ffff;
+    border-radius: 15px;
+    margin-top: 150px;
+    border-width: 2px;
+}
+
+.text{
+    font-size: medium;
+    font-weight: bolder;
+    background-color: transparent;
+    margin-left: 45px;
+}
+.single-item{
+    position: relative;
+    text-align: bottom;
+    z-index: 5;
+}
+.col-md-4{
+    margin-top: 50px;
+}
+
+.uppercase{
+    font-weight: bolder;
+}
+
+
+.burger{
+    position: absolute;
+    top: 15px;
+    cursor: pointer;
+    right: 2px;
+}
+.line{
+    width: 33px;
+    background-color: rgb(241, 238, 238);
+    height: 4px;
+    margin: 3px 3px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+}
+.dropdown-menu.show {
+    display: block;
+    background-color: rgb(32, 27, 27);
+    
+}
+.dropdown-item{
+    color: #fff;
+    padding-right: 4px;
+}
+.navbar li{
+    float: left;
+}

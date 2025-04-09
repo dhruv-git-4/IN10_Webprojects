@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/edhotel.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon-16x16.png" type="images/x-icon">
+    <title>Hotel</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="nav-head">
+            <div class="row">
+                <section class="nav-row">
+                    <div class="col-lg-8">
+                        <span class="nav-addrress">45 Queens Park Rd,Brightnon,BN2 UK</span>
+                    </div>
+                    <div class="col-lg-4" style="text-align: center;">
+                        <i class="fa fa-phone" aria-hidden="true" style="color: goldenrod;">+022-43277-3498</i>
+                        <select class="select-lang" name="lang">
+                            <option>ENG</option>
+                            <option>MAR</option>
+                            <option>SAN</option>
+                        </select>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <hr>
+        <div class="navigation-bar">
+            <div class="container">
+                <a href="#"><img class="hotel-logo" src="images/hotellogo.PNG"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+                    aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse-navbar">
+                    <ul class="nav-list">
+                        <li class="dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle down" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="drop-data">About Us</li>
+                                <li class="drop-data">Pricing</li>
+                                <li class="drop-data">Services</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle down" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Rooms
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="drop-data">About Us</li>
+                                <li class="drop-data">Pricing</li>
+                                <li class="drop-data">Services</li>
+                            </ul>
+                        </li>
+                        <li class="lnav-item dropdown">
+                            <a class="nav-link dropdown-toggle down" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Events
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="drop-data">About Us</li>
+                                <li class="drop-data">Pricing</li>
+                                <li class="drop-data">Services</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle down" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="drop-data">About Us</li>
+                                <li class="drop-data">Pricing</li>
+                                <li class="drop-data">Services</li>
+                            </ul>
+                        </li>
+                        <button class="booking">Booking Online</button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" style="position: relative;"
+        data-bs-ride="carousel">
+        <div class="carousel-indicators" style="padding-bottom: 90px;">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="images/edhotel1.PNG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom: 21rem;">
+                    <h5 style="font-size: 70px;color: white;">Hotel View</h5>
+                    <p style="font-size: 20px; font-weight: 400; color: white; margin-bottom: 100px;">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi eos ducimus deleniti iusto
+                        error molestiae exercitationem, possimus non harum quibusdam.</p>
+                    <button class="details">More Details</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/edhotel2.PNG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom: 21rem;">
+                    <h5 style="font-size: 70px; color: white;">Hotel Interior</h5>
+                    <p style="font-size: 20px; font-weight: 400; color: white; margin-bottom: 100px;">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia recusandae maxime amet molestias,
+                        nam natus dolorem itaque ipsam? Laborum, excepturi!</p>
+                    <button class="details">More Details</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/edhotel3.PNG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom: 21rem;">
+                    <h5 style="font-size: 70px; color: white;">Hotel Rooms</h5>
+                    <p style="font-size: 20px; font-weight: 400; color: white; margin-bottom: 100px;">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque sapiente asperiores veritatis
+                        animi quidem earum.</p>
+                    <button class="details">More Details</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container secondary">
+        <div class="form-row">
+            <div class="input-group tp-datepicker date" data-provide="datepicker">
+                <input type="text" class="form-control" placeholder="Arrival" style="border-radius: 6px;">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+            </div>
+            <div class="col-lg-2" style="padding: 20px;">
+                <select id="person" class="form-control custom-select">
+                    <option selected="">Adults</option>
+                    <option value="1">1 Adult</option>
+                    <option value="2">2 Adults</option>
+                    <option value="3">3 Adults</option>
+                    <option value="4">4 Adults</option>
+                </select>
+            </div>
+            <div class="col-lg-2" style="padding: 20px;">
+                <select id="children" class="form-control custom-select">
+                    <option selected="">Children</option>
+                    <option value="1">1 Children</option>
+                    <option value="2">2 Children</option>
+                    <option value="3">3 Children</option>
+                    <option value="4">4 Children</option>
+                    <option value="5">5 Children</option>
+                </select>
+            </div>
+            <div class="col-lg-2" style="padding: 20px;">
+                <select id="night" class="form-control custom-select">
+                    <option selected="">Nights</option>
+                    <option value="1">1 Night</option>
+                    <option value="2">2 Nights</option>
+                    <option value="3">3 Nights</option>
+                    <option value="4">4 Nights</option>
+                    <option value="5">5 Nights</option>
+                    <option value="6">6 Nights</option>
+                    <option value="7">7 Nights</option>
+                    <option value="7+">7+ Nights</option>
+                </select>
+            </div>
+            <div class="col-lg-2" style="padding: 20px;">
+                <select id="room" class="form-control custom-select">
+                    <option selected="">Rooms</option>
+                    <option value="1">1 Room</option>
+                    <option value="2">2 Rooms</option>
+                    <option value="3">3 Rooms</option>
+                    <option value="4">4 Rooms</option>
+                </select>
+            </div>
+            <div class="col-lg-2" style="padding: 11px;">
+                <button class="check-btn"><a href="#" class="check">Check</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="third" style="height: 230px;">
+        <h5 style="color: goldenrod;">Welcome To</h5>
+        <h1 style="font-size: 50px;">TravelPro Hotel</h1>
+        <p style="padding: 12px 175px 0px 175px;font-size: 17px;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil illo eum accusantium maiores cum eligendi
+            natus esse possimus praesentium fuga earum culpa, veniam est, voluptatum quibusdam laboriosam iste velit
+            nesciunt.</p>
+    </div>
+    <section class="first" style="height: 580px; padding-top: 62px;">
+        <div class="first-row">
+            <div class="col-lg-6" style="text-align: center;">
+                <img src="images/edhotel4.PNG" style="position: relative; width: 560px; height: 422px;">
+            </div>
+            <div class="col-lg-3" style="text-align: left;">
+                <img class="overlap" src="images/edhotel5.PNG">
+            </div>
+            <div class="col-lg-3" style="margin-left: -7rem;">
+                <img src="images/edhotel6.PNG" style="height: 440px;">
+            </div>
+        </div>
+    </section>
+    <section class="second" style="margin-bottom: 120px; height: 800px;">
+        <h5 style="color: goldenrod;">LUXURIOUS</h5>
+        <h1 style="font-size: 50px;">Featured Rooms</h1>
+        <p style="padding: 12px 175px 0px 175px;font-size: 17px;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil illo eum accusantium maiores cum eligendi
+            natus esse possimus praesentium fuga earum culpa, veniam est, voluptatum quibusdam laboriosam iste velit
+            nesciunt.</p>
+        <div class="card-area">
+            <div class="cards">
+                <div class="card-img-top"><a href="#">
+                        <img src="images/edhotel7.PNG" style="width: 330px; height: 215px;"></a>
+                    <div class="card-body">
+                        <h3>Delux Room</h3>
+                        <h2 class="rate">$ 250/night</h2>
+                        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique facere,
+                            reprehenderit </p>
+                        <button class="more">Details</button>
+                        <button class="book">Book</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-img-top"><a href="#">
+                        <img src="images/edhotel8.PNG" style="width: 330px;"></a>
+                    <div class="card-body">
+                        <h3>Single Room</h3>
+                        <h2 class="rate">$ 100/night</h2>
+                        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique facere,
+                            reprehenderit </p>
+                        <button class="more">Details</button>
+                        <button class="book">Book</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-img-top"><a href="#">
+                        <img src="images/edhotel9.PNG" style="width: 330px;"></a>
+                    <div class="card-body">
+                        <h3>Double Room</h3>
+                        <h2 class="rate">$ 300/night</h2>
+                        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique facere,
+                            reprehenderit </p>
+                        <button class="more">Details</button>
+                        <button class="book">Book</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="third" style="margin-top: 130px; text-align: center;">
+            <div class="third-row" style="height: 600px;">
+                <div class="col-lg-4" style="padding-top: 147px;">
+                    <h5 style="color:goldenrod; font-size: 30px;">TESTIMONY</h5>
+                    <h1 style="font-family: serif; font-size: 70px;">Customers
+                        <br>Satisfaction
+                    </h1>
+                </div>
+                <div class="col-lg-8 back">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="text-slide">
+                                    <p class="caro-para"><i class="fa fa-quote-left colon" aria-hidden="true"></i><br>
+                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                                        aliquid explicabo molestias dolor iste hic error, ipsum consectetur illo
+                                        perferendis corporis blanditiis, incidunt culpa voluptates, minus consequatur
+                                        ratione nemo officiis."</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="caro-para"><i class="fa fa-quote-left colon" aria-hidden="true"></i><br>
+                                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                                    aliquid explicabo molestias dolor iste hic error, ipsum consectetur illo perferendis
+                                    corporis blanditiis, incidunt culpa voluptates, minus consequatur ratione nemo
+                                    officiis."</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="caro-para"><i class="fa fa-quote-left colon" aria-hidden="true"></i><br>
+                                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                                    aliquid explicabo molestias dolor iste hic error, ipsum consectetur illo perferendis
+                                    corporis blanditiis, incidunt culpa voluptates, minus consequatur ratione nemo
+                                    officiis."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <div class="container blognews">
+        <div class="blog">
+            <h5 style="color:goldenrod;">Blog News</h5>
+            <h1 style="font-size: 50px;">Latest Posts From Blogs</h1>
+            <p style="color: gray;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus nemo architecto quae
+                alias culpa aspernatur? Doloribus voluptatem quasi quos beatae, id ducimus officia earum tempora labore!
+                Dolorum veniam sed in..</p>
+        </div>
+    </div>
+    <div class="blog-card">
+        <div class="cards one" style="width: 356px; border: 3px solid rgb(249 245 245);">
+            <div class="card-topimage">
+                <img src="images/ed1.PNG" alt="">
+                <div class="card-body" style="height: 230px;">
+                    <h5 style="color: gainsboro;"><i class="fa fa-calendar last" aria-hidden="true"> 17 May 2019 by
+                            admin</i>
+                    </h5><br>
+                    <a href="#">
+                        <p class="blog-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quia expedita
+                        </p>
+                    </a>
+                    <span class="blog-foot"><i class="fa fa-clock-o" aria-hidden="true"> 2 min Read</i></span>
+                </div>
+            </div>
+        </div>
+        <div class="cards two" style="width: 356px; border: 3px solid rgb(249 245 245);">
+            <div class="card-topimage">
+                <img src="images/ed2.PNG" alt="">
+                <div class="card-body" style="height: 230px;">
+                    <h5 style="color: gainsboro;"><i class="fa fa-calendar last" aria-hidden="true"> 10 jul 2019 by
+                            admin</i>
+                    </h5><br>
+                    <a href="#">
+                        <p class="blog-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quia expedita
+                        </p>
+                    </a>
+                    <span class="blog-foot"><i class="fa fa-clock-o" aria-hidden="true"> 4 min Read</i></span>
+                </div>
+            </div>
+        </div>
+        <div class="cards three" style="width: 356px; border: 3px solid rgb(249 245 245);">
+            <div class="card-topimage">
+                <img src="images/ed3.PNG" alt="">
+                <div class="card-body" style="height: 230px;">
+                    <h5 style="color: gainsboro;"><i class="fa fa-calendar last" aria-hidden="true"> 5 jan 2019 by
+                            admin</i>
+                    </h5><br>
+                    <a href="#">
+                        <p class="blog-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quia expedita
+                        </p>
+                    </a>
+                    <span class="blog-foot"><i class="fa fa-clock-o" aria-hidden="true"> 7 min Read</i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery-sec">
+        <img class="gal" src="images/ed4.PNG" alt="">
+        <img class="gal" src="images/ed5.PNG" alt="">
+        <a href="#"><button class="gallery">GALLERY</button></a>
+        <img class="gal" src="images/ed6.PNG" alt="">
+    </div>
+    <section class="contacts">
+        <div class="contact-row">
+            <div class="col-lg-3">
+                <h3>Eden</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem animi assumenda explicabo et
+                    adipisci, modi reprehenderit magnam accusamus consequuntur temporibus?</p>
+            </div>
+            <div class="col-lg-3">
+                <h3>Address</h3>
+                <p style="padding-top: 20px;"><i class="fa fa-phone" aria-hidden="true"> (+233) 123 456789</i></p>
+                <p style="padding-top: 20px;"><i class="fa fa-envelope" aria-hidden="true"> contact@sparta.com</i></p>
+                <p style="padding-top: 20px;"><i class="fa fa-map-marker" aria-hidden="true"> St Amsterdam finland,United Stats of <br>     AKY16 8PN</i></p>
+            </div>
+            <div class="col-lg-3">
+                <h3>Quick links</h3>
+                <ul class="arrow-list">
+                    <li class="arr">Home</li>
+                    <li class="arr">Services</li>
+                    <li class="arr">Blog</li>
+                    <li class="arr">Contact</li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h3>Company</h3>
+                <p class="rights">Terms & Condition</p>
+                <p class="rights">Privacy Policy</p>
+                <p class="rights">Site Map</p>
+                <h3>Follow Us</h3>
+                <div class="social">
+                    <button class="share-btn">
+                        <i class="fa fa-instagram" style="color: #ad8b4e;" aria-hidden="true"></i>
+                    </button>
+                    <button class="share-btn">
+                        <i class="fa fa-facebook-square" style="color: #ad8b4e;"aria-hidden="true"></i>
+                    </button>
+                    <button class="share-btn">
+                        <i class="fa fa-twitter" style="color: #ad8b4e;" aria-hidden="true"></i>
+                    </button>
+                    <button class="share-btn">
+                        <i class="fa fa-linkedin" style="color: #ad8b4e;" aria-hidden="true"></i>
+                    </button>
+                    <button class="print-btn" onclick="window.print()">Print</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>&copy; Copyright TravelPro Reserved to Themefisher-2019</footer>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script>
+        $('.carousel').slick({
+            dots: false,
+            infinite: true,
+            speed: 1000,
+            slidesToShow: 2,
+            adaptiveHeight: true,
+            arrows: false,
+            autoplay: false,
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,301 @@
+.navigation{
+    position: sticky;
+}
+.nav-row{
+    display: flex;
+    padding-top: 12px;
+}
+.nav-addrress{
+    color: rgb(155, 151, 151);
+    padding-left: 102px;
+}
+.select-lang{
+    width: 60px;
+    color: rgb(155, 151, 151);
+    border: 1px solid rgb(155, 151, 151);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown-menu{
+    list-style: none;
+    text-align: left;
+}
+.nav-list a:hover{
+    background-color: #ad8b4e;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin-top: 12px;
+}
+.booking{
+    font-size: 17px;
+    color: white;
+    background: #ad8b4e;
+    border: none;
+    font-weight: 500;
+    height: 50px;
+    margin-top: 6px;
+}
+.booking:hover{
+    background-color:  rgb(124, 93, 81);
+}
+.navbar-toggler{
+    display: none;
+}
+.dropdown{
+    padding: 16px;
+    font-weight: 500;
+}
+.down::after{
+    display: none !important;
+}
+.details{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color:#ad8b4e;
+    border: none;
+    height: 60px;
+    width: 195px;
+    border-radius: 10px;
+}
+.details:hover{
+    background-color: rgb(124, 93, 81);
+}
+.form-row{
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 45px;
+    width: 83%;
+    margin-top: -80px;
+    position: absolute;
+}
+.date{
+    height: 38px;
+    margin-top: 20px;
+}
+.fa-calendar{
+    position: absolute;
+    text-align: right;
+    justify-content: right;
+    padding-left: 150px;
+    padding-top: 12px;
+}
+.form-control:hover{
+    box-shadow: 1px 1px 1px 1px  black;
+}
+.check-btn{
+    width: 140px;
+    height: 55px;
+    background-color:#ad8b4e ;
+    border: none;
+}
+.check-btn:hover{
+    background-color:  rgb(124, 93, 81);
+    color: white;
+}
+.check{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.third{
+    margin-top: 200px;
+    text-align: center;
+}
+.first-row{
+    display: flex;
+}
+.overlap{
+    position: absolute;
+    border: 15px solid white;
+    margin-top: 50px;
+    margin-left: -21rem;
+}
+.second{
+    background-color: rgb(192, 189, 189);
+    text-align: center; 
+    padding-top: 40px;
+    height: 800px;
+}
+.card-area{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards{
+    width: 330px;
+    margin-top: 50px;
+    margin-left: 95px;
+}
+.cards:hover{
+    transform: scale(1.05);
+}
+.card-body{
+    text-align: center;
+    background-color: white;
+    height: 270px;
+}
+h3{
+    padding: 20px;
+}
+.rate{
+    font-family: -webkit-body;
+    color: #ad8b4e;
+    font-size: 40px;
+}
+.more{
+    width: 85px;
+    font-size: 15px;
+    border: 1px solid black;
+    height: 35px;
+}
+.more:hover{
+    background-color: #ad8b4e;
+    color: white;
+}
+.book{
+    background-color: #ad8b4e;
+    color: white;
+    width: 85px;
+    font-size: 15px;
+    height: 35px;
+    border: none;
+}
+.book:hover{
+    background-color: rgb(124, 93, 81);
+}
+.third-row{
+    display: flex;
+    height: 520px;
+}
+.back{
+    background-image: url(../images/edhotel8.PNG);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+}
+.caro-para{
+    font-size: 20px;
+    padding-top: 185px;
+    font-weight: 700;
+}
+.blognews{
+    text-align: center;
+    margin-top: 37rem;
+    justify-content: center;
+    height: 200px;
+}
+.last{
+    padding: 0px;
+    margin-left: -150px;
+    font-size: 16px;
+    color: black;
+}
+.blog-card{
+    display: flex;
+    padding: 30px;
+}
+/* .one{
+    margin: 30px;
+}
+.two{
+    margin: 30px;
+}
+.three{
+    margin: 30px;
+} */
+.card-body a{
+    text-decoration: none;
+}
+.blog-para{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ad8b4e;
+}
+.blog-para:hover{
+    color: rgb(124, 93, 81);
+}
+.blog-foot{
+    text-align: left;
+    padding-right: 14rem;
+}
+.gal{
+    width: 33%;
+    opacity: 0.6;
+}
+.gallery{
+    color: white;
+    position: absolute;
+    margin: 120px 0px 0px -287px;
+    border: none;
+    width: 122px;
+    height: 53px;
+    font-size: 20px;
+    background-color: #ad8b4e;
+}
+.gallery:hover{
+    background-color: rgb(124, 93, 81);
+    color: black;
+    transform: scale(1.08);
+}
+.contact-row{
+    display: flex;
+    background-color: rgb(216, 216, 216);
+    height: 380px;
+}
+.arrow-list{
+    list-style-type: disclosure-closed;
+}
+.arr{
+    padding-top: 20px;
+}
+.arr:hover{
+    color: #ad8b4e;
+    font-weight: 600;
+}
+.rights:hover{
+    color: #ad8b4e;
+}
+.social{
+    padding-left: 20px;
+    margin-top: -15px;
+}
+.share-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+}
+.print-btn{
+    background-color: #ad8b4e;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.print-btn:hover{
+    background-color: rgb(124, 93, 81);
+}
+footer{
+    text-align: center;
+    background-color: rgb(216, 216, 216);
+}
+@media (max-width: 768px) {
+    .nav-row{
+        display: block;
+    }
+    .nav-addrress{
+        padding-left: 15px;
+    }
+    hr{
+        width: 625px;
+    }
+}

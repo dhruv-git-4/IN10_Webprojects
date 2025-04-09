@@ -1,0 +1,221 @@
+.back-img{
+    background-image: url(../images/volvo1.PNG);
+}
+.back-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
+}
+.heading{
+    padding-top: 58px;
+    text-align: center;
+    color: white;
+    font-size: 106px;
+    font-weight: 400;
+}
+.top-p{
+    margin-top: -1px;
+    color: rgb(200, 255, 0);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500px;
+}
+.middle{
+    display: flex;
+}
+.note{
+    text-align: center;
+    background-color: #1e1f26f7;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0px;
+    margin-left: -24px;
+}
+.note-p{
+    background-color:  #1e1f26f7;
+    padding-top: 20px;
+    padding-bottom: 56px;
+    margin-left: -24px;
+    text-align: center;
+    color: white;
+}
+.msg{
+    margin-top: -18px;
+    padding-top: 20px;
+    background-color: #484d5ade;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    height: 100px;
+}
+.msg-p{
+    font-size: 18px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.volvoicon{
+    text-align: center;
+    padding-top: 30px;
+    background-color: #484d5ade;
+    height: 260px;
+    margin-left: -24px;
+}
+.icon-p{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.middle-thd{
+    display: flex;
+}
+.middle-thd-head{
+    background-color: rgb(36, 33, 33);
+    padding-bottom: 79px;
+    width: 100%;
+}
+.serv{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 80px;
+}
+.thd-p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 35px 96px  ;
+}
+.middle-thd-head .Learnmore{
+    margin-left: 40%;
+    margin-bottom: 40px;
+    width: 130px;
+    background-color: transparent;
+    outline: solid white;
+}
+
+.back-center-img{
+    background-image:url(../images/volvo5.PNG) ;
+}
+.back-center-img{
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.align-img{
+    display: flex;
+    padding-right: 100px;
+    justify-content: right;
+    flex-wrap: wrap;
+    text-align: end;
+    padding-top: 150px;
+}
+h3{
+    font-weight: 600;
+}
+.info-fir{
+    background-color: aliceblue;
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    margin-top: auto;
+    padding-top: 15px;
+}
+.info-sec{
+    background-color: rgb(36, 28, 28);
+    text-align: center;
+    color: white;
+    width: 250px;
+    height: 200px; 
+    margin-top: auto;
+    padding-top: 15px;
+}
+.info-third img{
+    width: 300px;
+    height: 360px;
+}
+.gray{
+    height: 150px;
+    background-color: darkgray;
+}
+.one .foot-head{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.two .foot-head{
+    padding: 15px;
+     background-color: black;
+     color: white;
+     text-align: center;
+}
+
+.three .foot-head{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.one .models{
+    width: 300px;
+    height: 132px;
+    border: 2px solid black;
+    margin-top: -17px;
+}
+.two .models{
+    width: 300px;
+    height: 132px;
+    border: 2px solid black;
+    margin-top: -17px;
+}
+.three .models{
+    width: 300px;
+    height: 132px;
+    border: 2px solid black;
+    margin-top: -17px;
+}
+.one .foot-p{
+    text-align: center;
+    color: gray;
+    background-color:black;
+    font-size: 18px;
+}
+.two .foot-p{
+    text-align: center;
+    color: gray;
+    background-color: black;
+    font-size: 18px;
+}
+.three .foot-p{
+    text-align: center;
+    color: gray;
+    background-color: black;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .foot{
+        margin-top: 310px;
+    }
+}
+@media only screen and (min-width="820px") and (max-width: 1024px){
+    .gray{
+        height: 260px;
+    }
+    .one .models{
+        margin-left: 280px;
+    }
+    .two .models{
+        margin-left: 280px;
+    }
+    .three .models{
+        margin-left: 280px;
+    }
+
+}
+
